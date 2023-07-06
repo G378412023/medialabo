@@ -88,15 +88,15 @@ s5.appendChild(li2)
 
 
 let li3 = document.createElement("li");
-li3.textContent = "最低気温: "+data["main"]["humidity"];
+li3.textContent = "湿度: "+data["main"]["humidity"];
 s5.appendChild(li3)
 
 let li4 = document.createElement("li");
-li4.textContent = "最低気温: "+data["wind"]["speed"];
+li4.textContent = "風速: "+data["wind"]["speed"];
 s5.appendChild(li4)
 
 let li5 = document.createElement("li");
-li5.textContent = "最低気温: "+data["wind"]["deg"];
+li5.textContent = "風向: "+data["wind"]["deg"];
 s5.appendChild(li5)
 
 div.appendChild(s5);
